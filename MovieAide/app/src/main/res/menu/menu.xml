@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/detailsAction"
+        android:title="Details" />
+    <item
+        android:id="@+id/trailerAction"
+        android:title="Trailer" />
+    <item
+        android:id="@+id/directorAction"
+        android:title="Director" />
+    <item
+        android:id="@+id/iMDbAction"
+        android:title="IMDb" />
+</menu>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MainApp</string>
+
+    <string-array name="Attractions">
+        <item>Millennium Park</item>
+        <item>Willis Tower</item>
+        <item>Navy Pier</item>
+        <item>The Art Institute of Chicago</item>
+        <item>Shedd Aquarium</item>
+        <item>Skydeck Chicago</item>
+        <item>Lincoln Park Zoo</item>
+        <item>Buckingham Fountain</item>
+        <item>Adler Planetarium</item>
+    </string-array>
+
+    <string-array name="AttractionLinks">
+        <item>https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>https://www.willistower.com/</item>
+        <item>https://navypier.org/</item>
+        <item>https://www.artic.edu/</item>
+        <item>https://www.sheddaquarium.org/</item>
+        <item>https://theskydeck.com/</item>
+        <item>https://www.lpzoo.org/</item>
+        <item>https://www.chicagoparkdistrict.com/</item>
+        <item>https://www.adlerplanetarium.org/</item>
+    </string-array>
+
+
+    <string-array name="Restaurants">
+        <item>Roister Restaurant</item>
+        <item>Roka Akor</item>
+        <item>HaiSous Vietnamese Kitchen</item>
+        <item>The Loyalist</item>
+        <item>Next Restaurant</item>
+        <item>Duck Duck Goat</item>
+    </string-array>
+
+    <string-array name="RestaurantsLinks">
+        <item>https://www.roisterrestaurant.com/</item>
+        <item>https://www.rokaakor.com/chicago/</item>
+        <item>https://www.haisous.com/</item>
+        <item>https://www.smythandtheloyalist.com/</item>
+        <item>https://www.nextrestaurant.com/</item>
+        <item>https://duckduckgoatchicago.com/</item>
+    </string-array>
+
+</resources>

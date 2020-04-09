@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Project 2</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+
+    <string-array name="movie_names">
+        <item>Parasite</item>
+        <item>Joker</item>
+        <item>Once Upon a Time in Hollywood</item>
+        <item>The Irishman</item>
+        <item>Avengers: Endgame</item>
+        <item>Toy Story 4</item>
+    </string-array>
+
+    <string-array name="movie_years">
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2019</item>
+    </string-array>
+
+    <string-array name="movie_links">
+        <item>https://www.imdb.com/title/tt6751668/?ref_=fn_al_tt_1</item>
+        <item>https://www.imdb.com/title/tt7286456/?ref_=nv_sr_srsg_0</item>
+        <item>https://www.imdb.com/title/tt7131622/?ref_=nv_sr_srsg_0</item>
+        <item>https://www.imdb.com/title/tt1302006/?ref_=nv_sr_srsg_0</item>
+        <item>https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0</item>
+        <item>https://www.imdb.com/title/tt1979376/?ref_=nv_sr_srsg_0</item>
+    </string-array>
+
+    <string-array name="movie_trailer">
+        <item>https://www.youtube.com/watch?v=isOGD_7hNIY</item>
+        <item>https://www.youtube.com/watch?v=zAGVQLHvwOY</item>
+        <item>https://www.youtube.com/watch?v=ELeMaP8EPAA</item>
+        <item>https://www.youtube.com/watch?v=WHXxVmeGQUc</item>
+        <item>https://www.youtube.com/watch?v=TcMBFSGVi1c</item>
+        <item>https://www.youtube.com/watch?v=wmiIUN-7qhE</item>
+    </string-array>
+
+    <string-array name="movie_director_wiki">
+        <item>https://en.wikipedia.org/wiki/Bong_Joon-ho</item>
+        <item>https://en.wikipedia.org/wiki/Todd_Phillips</item>
+        <item>https://en.wikipedia.org/wiki/Quentin_Tarantino</item>
+        <item>https://en.wikipedia.org/wiki/Martin_Scorsese</item>
+        <item>https://en.wikipedia.org/wiki/Russo_brothers</item>
+        <item>https://en.wikipedia.org/wiki/Josh_Cooley</item>
+    </string-array>
+
+    <string-array name="movie_director_name">
+        <item>Bong Joon-ho</item>
+        <item>Todd Phillips</item>
+        <item>Quentin Tarantino</item>
+        <item>Martin Scorsese</item>
+        <item>Russo brothers</item>
+        <item>Josh Cooley</item>
+    </string-array>
+
+    <string-array name="movie_duration">
+        <item>2h 12min</item>
+        <item>2h 2min</item>
+        <item>2h 41min</item>
+        <item>3h 29min</item>
+        <item>3h 1min</item>
+        <item>1h 40min</item>
+    </string-array>
+
+    <string-array name="movie_stars">
+        <item>Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo</item>
+        <item>Joaquin Phoenix, Robert De Niro, Zazie Beetz</item>
+        <item>Leonardo DiCaprio, Brad Pitt, Margot Robbie</item>
+        <item>Robert De Niro, Al Pacino, Joe Pesci</item>
+        <item>Robert Downey Jr., Chris Evans, Mark Ruffalo</item>
+        <item>Tom Hanks, Tim Allen, Annie Potts</item>
+    </string-array>
+
+    <string-array name="imdb_rating">
+        <item>8.6/10</item>
+        <item>8.6/10</item>
+        <item>7.7/10</item>
+        <item>8.0/10</item>
+        <item>8.5/10</item>
+        <item>7.8/10</item>
+    </string-array>
+
+    <string-array name="rotten_rating">
+        <item>99%</item>
+        <item>68%</item>
+        <item>85%</item>
+        <item>96%</item>
+        <item>94%</item>
+        <item>97%</item>
+    </string-array>
+
+
+</resources>

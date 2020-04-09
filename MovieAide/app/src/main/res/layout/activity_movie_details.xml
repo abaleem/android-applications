@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetailActivity">
+
+    <TextView
+        android:id="@+id/movieNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:text="Movie Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@id/movieNameText"
+        app:layout_constraintTop_toTopOf="@id/movieNameText" />
+
+    <TextView
+        android:id="@+id/movieReleaseDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Release Date:"
+        app:layout_constraintStart_toStartOf="@id/movieNameText"
+        app:layout_constraintTop_toBottomOf="@+id/movieName" />
+
+    <TextView
+        android:id="@+id/movieReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/movieReleaseDateText"
+        app:layout_constraintTop_toBottomOf="@id/movieName" />
+
+    <TextView
+        android:id="@+id/movieDurationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Duration:"
+        app:layout_constraintStart_toStartOf="@+id/movieReleaseDateText"
+        app:layout_constraintTop_toBottomOf="@+id/movieReleaseDate" />
+
+    <TextView
+        android:id="@+id/movieDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/movieDurationText"
+        app:layout_constraintTop_toBottomOf="@id/movieReleaseDate" />
+
+    <TextView
+        android:id="@+id/movieDirectorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Director:"
+        app:layout_constraintStart_toStartOf="@+id/movieDurationText"
+        app:layout_constraintTop_toBottomOf="@+id/movieDuration" />
+
+    <TextView
+        android:id="@+id/movieDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/movieDirectorText"
+        app:layout_constraintTop_toBottomOf="@+id/movieDuration" />
+
+    <TextView
+        android:id="@+id/movieStarsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Stars:"
+        app:layout_constraintStart_toStartOf="@+id/movieDirectorText"
+        app:layout_constraintTop_toBottomOf="@+id/movieDirector" />
+
+    <TextView
+        android:id="@+id/movieStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/movieStarsText"
+        app:layout_constraintTop_toBottomOf="@+id/movieDirector" />
+
+    <TextView
+        android:id="@+id/imdbRatingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="IMDb Rating:"
+        app:layout_constraintStart_toStartOf="@+id/movieStarsText"
+        app:layout_constraintTop_toBottomOf="@+id/movieStars" />
+
+    <TextView
+        android:id="@+id/imdbRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/imdbRatingText"
+        app:layout_constraintTop_toBottomOf="@+id/movieStars" />
+
+    <TextView
+        android:id="@+id/rottenRatingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tomatometer:"
+        app:layout_constraintStart_toStartOf="@+id/imdbRatingText"
+        app:layout_constraintTop_toBottomOf="@+id/imdbRating" />
+
+    <TextView
+        android:id="@+id/rottenRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/rottenRatingText"
+        app:layout_constraintTop_toBottomOf="@+id/imdbRating" />
+</androidx.constraintlayout.widget.ConstraintLayout>
