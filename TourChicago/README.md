@@ -1,7 +1,7 @@
 ### Project Details:
 
 
-Design and code two new Android apps meant to work together on an Android phone or
+Design and code of two Android apps meant to work together on an Android phone or
 tablet running version 9, Pie. The first app, StarterApp, helps visitors in Chicago decide on
 points of interest in the Windy City. The second app, MainApp, has specific information about
 the points of interest.
