@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MusicCentral</string>
+
+    <string-array name="name">
+        <item>Dreams</item>
+        <item>Moose</item>
+        <item>Punky</item>
+        <item>Summer</item>
+        <item>Ukulele</item>
+    </string-array>
+
+    <string-array name="artist">
+        <item>Benjamin Tissot</item>
+        <item>Benjamin Tissot</item>
+        <item>Benjamin Tissot</item>
+        <item>Benjamin Tissot</item>
+        <item>Benjamin Tissot</item>
+    </string-array>
+
+    <string-array name="url">
+        <item>https://www.bensound.com/bensound-music/bensound-dreams.mp3</item>
+        <item>https://www.bensound.com/bensound-music/bensound-moose.mp3</item>
+        <item>https://www.bensound.com/bensound-music/bensound-punky.mp3</item>
+        <item>https://www.bensound.com/bensound-music/bensound-summer.mp3</item>
+        <item>https://www.bensound.com/bensound-music/bensound-ukulele.mp3</item>
+
+    </string-array>
+
+
+</resources>
